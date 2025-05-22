@@ -14,3 +14,18 @@ body {
  grid-template-columns: repeat(2, 1fr);
  gap: 2rem;
 }
+.nav-container { 
+  display: flex; 
+  justify-content: space-between; 
+  transition: var(--transition-base); 
+} 
+.feature-card {
+ transition: transform 0.3s ease;
+}
+.feature-card:hover {
+ transform: translateY(-10px);
+}
+.footer { 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+} 
